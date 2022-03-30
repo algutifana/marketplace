@@ -20,7 +20,7 @@ export default function Home() {
   []
   );
   async function loadNFTs(){
-    const provider = new ethers.providers.JsonRpcProvider('https://polygon-mumbai.infura.io/v3/1a4c8e6d0da1413bb8e6d5b37becd5b7');
+    const provider = new ethers.providers.JsonRpcProvider('https://matic-mumbai.chainstacklabs.com');
     const tokenContract = new ethers.Contract(nftAddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(marketAddress, Market.abi, provider);
 
