@@ -82,9 +82,9 @@ export default function Home() {
           {
             nfts.map((nft, i) =>(
               <div key = {i} className = "border shadow rounded-xl overflow-hidden">
-                <div className = "zoom">
+                
                 <Image style = {{transition: 'transform .5s'}}src = {nft.image} alt = "NFT Image" width = {300} height = {300}/>
-                </div>
+                
                 <div className = "p-4">
                   <p style = {{height: '50px', textAlign: 'center'}}className = "text-2xl text-thelinks">
                     {nft.name}
