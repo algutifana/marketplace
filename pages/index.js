@@ -88,7 +88,7 @@ export default function Home() {
                     {nft.name}
                   </p>
                   <div style = {{height: '20px', overflow: 'hidden'}}>
-                    <p style = {{textAlign: 'center'}} className = "p-4 text-thelinks">{nft.desc}</p>
+                    <p style = {{textAlign: 'center'}} className = "text-thelinks">{nft.desc}</p>
                   </div>
                 </div>
                 <div className = "p-4 bg-slate-400">
